@@ -1,0 +1,25 @@
+#root {
+  background: #e2e2e2;
+  height: 100vh;
+
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.App {
+  overflow-x: hidden;
+  margin: 0;
+  width: 100%;
+  height: inherit;
+
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+
+  border: solid 1px red;
+}

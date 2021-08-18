@@ -1,0 +1,33 @@
+.Rickdex {
+    /* border: solid 3px blue; */
+    padding: 0;
+
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.RickSearch {
+    /* border: solid 2px purple; */
+}
+
+.RickDisplay {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.img-card {
+    display: flex;
+    align-items: center;
+    /* border: solid 1px pink; */
+    width: clamp(5vw, 8vw, 10vw);
+}
+
+.img {
+    max-width: 100%;
+}
